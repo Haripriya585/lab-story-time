@@ -24,7 +24,7 @@ function moreAboutKaren(parents, noOfSiblings, isNuclearFamily) {
 
 function doesFriendExist(ageInText, ageInNumber) {
     if (ageInText == 'NaN') {
-        return (ageInText);
+        return ageInText;
     }
     else
         return ageInNumber;
@@ -47,7 +47,7 @@ function sweetTooth(totalNoOfSweets, sweetsConsumedByKaren, sweetsConsumedInNMet
         totalNoOfSweets = totalNoOfSweets - sweetsConsumedByKaren;
         totalNoOfSweets = totalNoOfSweets - (sweetsConsumedInNMeters * metersToTravel);
         if (totalNoOfSweets == 0) {
-            return (0);
+            return 0;
         } else {
             return (totalNoOfSweets / 2);
         }
